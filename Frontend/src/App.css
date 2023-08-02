@@ -1,0 +1,111 @@
+.App {
+  margin: 10px;
+}
+body {
+  background-color: #f6f4eb;
+  height: 100%;
+  padding: 40px;
+  width: 960px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+
+form {
+  display: block;
+  margin: auto;
+  width: 35%;
+  margin-top: 50px;
+}
+h2 {
+  padding-left: auto;
+  text-shadow: 2px 2px 2px #000000;
+}
+.messagebox {
+  margin: 30px;
+}
+
+label {
+  margin-right: 5px;
+}
+.flightPriceResults p {
+  margin-bottom: 5px;
+}
+
+.mainDiv {
+  margin: 15px;
+}
+.elements {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 7px;
+}
+
+.name {
+  font-weight: bold;
+}
+.price {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+img {
+  height: 35px;
+  width: 35px;
+}
+button {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #4682a9;
+  border: 1px solid #4682a9;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+input {
+  font-size: 18px;
+  padding: 10px 15px;
+  margin-top: 20px;
+  -webkit-appearance: none;
+  display: block;
+  background: #fff;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  /* border-bottom: 1px solid #757575; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* input[type="date"]:required:invalid::-webkit-datetime-edit {
+  color: transparent;
+} */
+input[type="date"]:focus::-webkit-datetime-edit {
+  color: black !important;
+}
+
+.firstLine {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.firstLine p {
+  padding-left: 20px;
+}
+.price {
+  color: crimson;
+}
+
+.firstLine2 {
+  display: flex;
+}
+.layover {
+  color: #232020b2;
+}
+
+.lastline {
+  padding-left: 21px;
+}
