@@ -16,7 +16,7 @@ const UI = () => {
 
     try {
       const response = await fetch(
-        `http://flight-price-tracker.vercel.app:5432/api/flights?origin=${origin}&destination=${destination}&startDate=${startDate}&endDate=${endDate}`
+        `https://flight-price-tracker.vercel.app:5432/api/flights?origin=${origin}&destination=${destination}&startDate=${startDate}&endDate=${endDate}`
       );
       const data = await response.json();
       setFlightPrices(data);
